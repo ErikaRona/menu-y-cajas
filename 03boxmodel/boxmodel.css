@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 20px auto;
+    padding: 30px;
+    border: 10px solid plum;
+}
+.caja2{
+    width: 200px;
+    height: 200px;
+    background: rgb(112, 50, 60);
+    margin: 20px auto;
+    padding: 30px;
+    border: 10px solid rgb(120, 44, 91);
+}
