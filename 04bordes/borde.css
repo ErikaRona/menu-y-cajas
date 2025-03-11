@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+ background: rgb(174, 247, 255);
+ margin: 10px;
+ color : rgb(165, 147, 245);
+ padding: 20px;
+}
+#cajita1{
+    border-width: thin;
+    border-style: dotted;
+    border-color: skyblue bisque;
+}
+#cajita2{
+    border-width: medium;
+    border-style: dotted;
+    border-color: skyblue palevioletred thistle;
+}
+#cajita3{
+    border-width: thick;
+    border-style: dotted;
+    border-color: skyblue gray violet;
+}
+#cajita4{
+    border-width: thin dotted beige; 
+    border-style: dotted;
+    border-color: skyblue;
+}
+#cajita5{
+  border: 0999px hidden rgb(11, 7, 8) ;
+}
+#cajita6{
+    border: 4px dotted
+    rgb(74, 90, 96);
+}
+#cajita7{
+border: 3px dashed
+    skyblue;
+}
+#cajita8{
+  border: 88px solid
+    rgb(235, 135, 210);
+}
+#cajita9{
+    border: 10px double palevioletred;
+}
+#cajita10{
+   border: 10px groove palevioletred;
+}
+#cajita11{
+    border: 10px ridge palevioletred;
+}
+#cajita12{
+   border: 10px inset palevioletred;
+}
+#cajita13{
+   border: 10px outset palevioletred;
+}
+#cajita14{
+    border-top: 10px dashed palevioletred; ;
+    border-bottom: 10px double palevioletred;
+    border-left: 10px solid palevioletred;
+    border-right: 10px dotted palevioletred;
+}
+#cajita15 {
+    font-family: Jost, sans-serif;
+    font-size: 1rem;
+  
+    padding: 1rem 2rem;
+    background: none;
+    color: #000;
+  
+    border-image-source: linear-gradient(indigo, purple, hotpink);
+    border-image-slice: 1 1 1 1;
+    border-image-width: 0.25rem;  
+}
+
+#cajita16 {
+    --timing: linear(0, 0.3, 0.75, 1);
+  
+    font-family: Jost, sans-serif;
+    font-size: 0.5rem;
+  
+    padding: 1rem 2rem;
+    background: none;
+    color: #000;
+  
+    border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+    border-image-slice: 1 1 1 1;
+    border-image-width: 0.25rem;
+  
+    animation: move 1s infinite var(--timing);
+  
+  
+  }
+  
+  @keyframes move {
+    from { --a: 0deg; }
+    to { --a: 360deg; }
+  }
+  
+  @property --a {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+  }
+  a{
+    
+    text-decoration: double;
+    display: grid;
+    padding:0px;
+    background: rgb(164, 235, 255);
+    width: 300px;
+    margin: 0px auto;
+    font-family: "Arial Black";
+    color:black;
+    border-radius: 25px;
+    border:3px solid black;
+    box-shadow: 0 0 5px rgba(0,0,0);
+    }

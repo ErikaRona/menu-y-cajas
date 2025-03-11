@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Mine" ;
+    src: url(font/Minercraftory.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family:"hi" ;
+    src: url(font/Pure\ Milk.otf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+span{
+    font-family:"Arial";
+    font-size: 20px; 
+    font-style: italic;
+    font-weight: 700;
+}
+.eri1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px; 
+    font-style: normal;
+    font-weight: 900;
+}
+.eri2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2px; 
+    font-style:normal;
+    font-weight: 70;
+  
+}
+.eri3{
+font-family: monospace;    
+font-size: 15px; 
+    font-style: italic;
+    font-weight: 700;
+}
+.eri4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 66px; 
+    font-style: normal;
+    font-weight: 700;
+
+}
+.p1{
+    text-decoration: underline;
+
+}
+.p2{
+    text-decoration: overline;
+}
+.p3{
+    text-decoration: line-through;
+}
+.a1
+{
+    text-decoration: 2px dashed overline coral;
+}
+.a2{
+    text-decoration: 7px double underline blue;
+}
+.a3{
+    text-decoration: 5px dotted line-through green;
+}
+.texto{
+    text-shadow: 0 0 5px red;
+}
+.mine{ 
+    font-family: "mine";
+}
+.hi{
+    font-family: "hi";
+}
+.ejemplo1{
+    letter-spacing:20px ;
+    text-align: justify;
+}
+.ejemplo2{
+    line-height: 10px;
+    color: blueviolet;
+}
+.ejemplo3{
+    line-height:100px ;
+    color: salmon;
+}
+.ejemplo4{
+    text-indent: 50px;
+
+}
+.ejemplo5{
+    word-spacing: 100px;	
+    color: indianred;
+}
+.ejemplo6{
+white-space: pre-wrap;
+    color: darkorange;
+}
+.ejemplo7{
+text-align: center;
+}
+.espacio{
+    letter-spacing: 10px;
+}
+.line{
+    line-height: 100px;
+}
+.text{
+    text-indent: 200px;
+}
+.word{
+    word-spacing: 100px;
+}
+.WHITE{
+    white-space: nowrap;
+}
+.ALIGN{
+    text-align: center;
+}
+a{
+    
+    text-decoration: double;
+    display: grid;
+    padding:0px;
+    background: rgb(251, 156, 119);
+    width: 300px;
+    margin: 0px auto;
+    font-family: "Arial Black";
+    color:black;
+    border-radius: 25px;
+    border:3px solid black;
+    box-shadow: 0 0 5px rgba(0,0,0);
+    }   

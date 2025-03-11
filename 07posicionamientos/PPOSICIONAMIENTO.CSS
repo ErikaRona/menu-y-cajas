@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: deepskyblue;
+    border: 3px solid paleturquoise;
+    margin: 10px;
+    padding: 20px;
+}.estatico{
+    position: static;
+    top: 200px ;
+    left: 200px;
+    background: rgb(238, 50, 157);
+
+}
+.relativo{
+    position: relative;
+    top: 100px ;
+    left: 50px;
+    background: rgb(150, 233, 131);
+}
+
+.fijo{
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    background: rgb(79, 47, 63);
+}
+.pegajoso {
+    position: sticky;
+    top: 200px;
+    left: 200px;
+    right: 200px;
+    background: rgb(93, 110, 116);
+}
+.estaticos{
+    position: static;
+    top: 100px;
+    left: 100px;
+    background: rgb(108, 211, 231);
+}
+.absoluttos{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(178, 12, 12);
+    z-index:5 ;
+    opacity: 0.5;
+    color: bisque;
+
+}
+.sss{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 255, 0);
+}
+.ccc{
+    position: absolute;
+    bottom: 0;
+right: 0;
+    margin: 0;
+   
+    background-color: rgb(255, 0, 0);
+}
+.aaa{
+position: absolute;
+bottom: 0;
+left: 0;
+margin: 0;
+background-color: deeppink;
+}
+.bbb{
+    position: fixed;
+    right: 0;
+    top: 100px;
+    margin: 0;
+    background-color: darkorchid;
+}
+a{
+    
+    text-decoration: double;
+    display: grid;
+    padding:0px;
+    background: rgb(251, 156, 119);
+    width: 300px;
+    margin: 0px auto;
+    font-family: "Arial Black";
+    color:black;
+    border-radius: 25px;
+    border:3px solid black;
+    box-shadow: 0 0 5px rgba(0,0,0);
+    }   
+.eri{
+
+    position: absolute;
+    top: 3100px;
+    left: 500px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(0, 0, 0);
+    z-index:5 ;
+    opacity: 0.5;
+    color: bisque;
+
+}
+.nav{
+    position: absolute;
+    top: 3150px;
+    left: 550px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    z-index:5 ;
+    opacity: 0.5;
+    color: bisque;
+}
+.rona{
+    position: absolute;
+    top: 3200px;
+    left: 600px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(213, 43, 159);
+    z-index:5 ;
+    opacity: 0.5;
+    color: bisque;
+}
+.kiki{
+    position: absolute;
+    top: 3250px;
+    left: 650px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 0, 0);
+    z-index:5 ;
+    opacity: 0.5;
+    color: bisque;
+}
