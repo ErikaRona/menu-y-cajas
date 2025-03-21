@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
+    font-size: 50px;
+    font-weight: bolder;
+}
+div{
+    background: rgb(252, 170, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background: rgb(254, 88, 149);
+    grid-column: 1/5;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+}
+.main{
+    background: rgb(255, 184, 240);
+    grid-column: 1/4;
+    grid-row: 2/9;
+}
+.nav{
+    background: rgb(225, 139, 186);
+    border: 1px solid black;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+.aside{
+    background: rgb(236, 130, 156);
+    grid-column: 4/5;
+    grid-row:3/9 ;
+    
+}
+.footer{
+    background: skyblue;
+    grid-column: 1/5;
+    grid-row: 9/10; 
+}

@@ -1,16 +1,83 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
  
-<link rel="stylesheet" href="css/bootstrap.min.css">
 
-</head>
+  <div class="alert alert-danger" role="alert">
+   ESTO SIGNIFICA P-E-L-I-G-R-O
+  </div>
 
-<body>  
-<script ></script> 
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   ventanita
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">hola</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cierralo</button>
+          <button type="button" class="btn btn-primary">hola</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      borrar
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">memoria</a></li>
+      <li><a class="dropdown-item" href="#">tareas</a></li>
+      <li><a class="dropdown-item" href="#">personas</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">todo lo anterior</a></li>
+    </ul>
+  </div>
+
+
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+   selecciona una princesa disney
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">blancanieves</a>
+    <a href="#" class="list-group-item list-group-item-action">jazmin</a>
+    <a href="#" class="list-group-item list-group-item-action">bella</a>
+    <a class="list-group-item list-group-item-action disabled" aria-disabled="true">otra</a>
+  </div>
+
+  <div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-secondary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-success" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-danger" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-warning" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-info" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-light" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-dark" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+      <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

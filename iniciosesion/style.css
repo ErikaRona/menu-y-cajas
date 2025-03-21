@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(255, 215, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  div.todo{
+    width: 540px;
+    height: 550px;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+
+    }
+    .todo .fresa {
+      width: 540px;
+      height: 200px; 
+      top: 5px;
+      left: 1px;
+    }
+    .todo.icon{
+      height: 5px;
+      width: 5px; 
+    }
+  
+  
+
